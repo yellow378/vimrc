@@ -39,3 +39,9 @@ let g:mapleader=','
  
 inoremap <leader>w <Esc>:w<cr>
 noremap <leader>w :w<cr>
+inoremap <leader>q <Esc>:q!<cr>
+noremap <leader>q :q!<cr>
+"plug
+call plug#begin()
+Plug 'preservim/nerdtree'
+call plug#end()
